@@ -1,0 +1,3 @@
+[submodule "Assets/Plugins/Sapiscow"]
+	path = Assets/Plugins/Sapiscow
+	url = https://github.com/sapiscow/unity-framework.git
