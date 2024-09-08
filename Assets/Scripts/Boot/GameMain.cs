@@ -1,5 +1,6 @@
 using Sapiscow.Framework.Boot;
 using Sapiscow.UnityTemplate.Module.Audios;
+using Sapiscow.UnityTemplate.Module.Inputs;
 using UnityEngine;
 
 namespace Sapiscow.UnityTemplate.Boot
@@ -7,6 +8,7 @@ namespace Sapiscow.UnityTemplate.Boot
     public class GameMain : IGameMain
     {
         private IAudioSystem _audioSystem;
+        private IInputSystem _inputSystem;
 
         public void Init()
         {
